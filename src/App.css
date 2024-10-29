@@ -40,3 +40,41 @@
 .read-the-docs {
   color: #888;
 }
+
+.App {
+  display: flex;
+  padding: 2rem;
+  gap: 2rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.puppy-list {
+  flex: 1;
+  min-width: 200px;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+.puppy-item {
+  cursor: pointer;
+  padding: 0.8rem 1rem;
+  margin: 0.5rem 0;
+  border-radius: 6px;
+  background-color: white;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.puppy-item:hover {
+  background-color: #e9ecef;
+  transform: translateY(-2px);
+}
+
+.puppy-details {
+  flex: 1;
+  padding: 20px;
+  border-left: 1px solid #ccc;
+}
