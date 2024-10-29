@@ -5,7 +5,7 @@ import "./path-to-css.css";
 console.log("puppyList:", puppyList); // Add this before the App function
 
 function App() {
-  const [puppies, setPuppies] = useState(puppyList);
+  const [puppies] = useState(puppyList); // Removed unused setPuppies
   console.log(puppies);
 
   return (
